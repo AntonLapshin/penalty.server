@@ -1,0 +1,22 @@
+{
+  "name": "penaltydb",
+  "version": "0.0.1",
+  "description": "This is a database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonLapshin/penaltydb"
+  },
+  "keywords": [
+    "google",
+    "db"
+  ],
+  "author": "Anton Lapshin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonLapshin/penaltydb/issues"
+  }
+}
