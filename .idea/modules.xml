@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/penaltydb.iml" filepath="$PROJECT_DIR$/.idea/penaltydb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/penalty.iml" filepath="$PROJECT_DIR$/.idea/penalty.iml" />
     </modules>
   </component>
 </project>
-
