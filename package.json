@@ -1,22 +1,22 @@
 {
-  "name": "penaltydb",
+  "name": "penalty",
   "version": "0.0.1",
-  "description": "This is a database",
+  "description": "This is a server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AntonLapshin/penaltydb"
+    "url": "https://github.com/AntonLapshin/penalty.server"
   },
   "keywords": [
     "google",
-    "db"
+    "mongo"
   ],
   "author": "Anton Lapshin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AntonLapshin/penaltydb/issues"
+    "url": "https://github.com/AntonLapshin/penalty.server/issues"
   }
 }
