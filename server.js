@@ -22,6 +22,7 @@ exports.start = function ()
                     res.jsonp("error: " + e + " url: " + req.url);
                 }
             });
+            defer.resolve();
             app.listen(Number(process.env.PORT || 8080));
         });
     });

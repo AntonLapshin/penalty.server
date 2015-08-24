@@ -3,18 +3,11 @@ var Mongo = require('mongodb'),
 
 var _db = null,
     _top = null,
-    REMOTE_VK = {
-        host: 'ds053109.mongolab.com',
-        port: 53109,
-        database: 'heroku_app27132185',
-        username: 'penaltydb',
-        password: '24547294'
-    },
-    REMOTE_FB = {
-        host: 'ds063140.mongolab.com',
-        port: 63140,
-        database: 'heroku_app32417747',
-        username: 'penaltydb',
+    REMOTE_UNIVERSAL = {
+        host: 'ds035553.mongolab.com',
+        port: 35553,
+        database: 'heroku_z0k6fmph',
+        username: 'penalty',
         password: '24547294'
     },
     COLLECTION_NAME = 'top';
@@ -73,7 +66,7 @@ function init() {
             defer.resolve();
             return;
         }
-        exports.connect(REMOTE_FB)
+        exports.connect(REMOTE_UNIVERSAL)
             .then(function(){
                 return getCollection(COLLECTION_NAME);
             },
