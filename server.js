@@ -24,7 +24,7 @@ exports.start = function ()
             });
             defer.resolve();
             app.listen(Number(process.env.PORT || 8080));
-        });
+        }, defer.reject);
     });
 };
 
